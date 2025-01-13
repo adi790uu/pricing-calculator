@@ -6,7 +6,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 class Settings(BaseSettings):
     ENVIRONMENT: str
     APP_NAME: str
-    API_PREFIX: str = "/api"
+    API_PREFIX: str = "/api/v1"
     HOST_URL: str
 
 

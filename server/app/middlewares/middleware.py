@@ -4,7 +4,7 @@ from app.schemas.data_response_dto import ErrorResponse, GenericResponse
 from fastapi import HTTPException
 from loguru import logger
 
-from server.app.core.exception import (
+from app.core.exception import (
     DuplicateResourceCreateError,
     ResourceNotFoundError,
 )
